@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gabriel Edwin | Portfolio</title>
+<style>
+:root{--gold:#e8b84e;--bg:#080807;--panel:#15130e;--text:#f7f2e7;--muted:#c4bcae}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px Arial,sans-serif;line-height:1.7}
+header{position:sticky;top:0;background:#080807f5;border-bottom:1px solid #473719;padding:15px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;z-index:5}
+.logo{color:var(--gold);font:bold 24px Georgia,serif}
+nav{display:flex;gap:17px;flex-wrap:wrap}
+a{color:var(--gold);text-decoration:none}
+nav a{color:var(--text);font-size:14px}
+nav a:hover{color:var(--gold)}
+section{padding:70px 8%;border-bottom:1px solid #382b15}
+.hero{min-height:75vh;display:flex;align-items:center;background:radial-gradient(ellipse at 85% 35%,#60441955,transparent 50%)}
+h1{font: bold clamp(42px,8vw,76px) Georgia,serif;line-height:1.1;margin:12px 0}
+h1 span,h2,.gold{color:var(--gold)}
+h2{font: bold 34px Georgia,serif}
+p{color:var(--muted);max-width:700px}
+.tag{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:12px}
+.btn{display:inline-block;background:var(--gold);color:#171006;padding:12px 20px;border-radius:25px;font-weight:bold;margin:10px 8px 10px 0}
+.btn.alt{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.card{padding:22px;background:var(--panel);border:1px solid #4b3919;border-radius:10px}
+.card h3{color:var(--gold);margin-top:0}
+footer{text-align:center;padding:30px;color:var(--muted)}
+input,textarea,select{width:100%;padding:12px;margin:6px 0 14px;background:#15130e;color:white;border:1px solid #6c5125;border-radius:6px}
+textarea{min-height:120px}
+label{color:var(--gold);font-size:14px}
+@media(max-width:600px){header{align-items:flex-start;flex-direction:column}nav{gap:12px}section{padding:50px 6%}.hero{min-height:65vh}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">♛ GE | GABRIEL EDWIN</div>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+ <div>
+  <div class="tag">Hello, welcome to my portfolio</div>
+  <h1>GABRIEL <span>EDWIN</span></h1>
+  <h3>Student | Freelancer | Future Professional</h3>
+  <p>I am a motivated individual interested in language, communication and digital skills. I believe in continuous learning, reliable work and making a positive impact.</p>
+  <a class="btn" href="#portfolio">Explore My Work ↓</a>
+  <a class="btn alt" href="#contact">Contact Me</a>
+ </div>
+</section>
+
+<section id="about">
+ <div class="tag">Get to know me</div><h2>About Me</h2>
+ <p>My name is Gabriel Edwin. I am pursuing a Bachelor of Arts in Kiswahili at Kisii University. I enjoy learning, communicating and developing practical skills that can help me grow professionally.</p>
+ <div class="grid">
+  <div class="card"><h3>Education</h3><p>Bachelor of Arts (Kiswahili)<br>Kisii University</p></div>
+  <div class="card"><h3>Location</h3><p>Kenya</p></div>
+  <div class="card"><h3>My Goal</h3><p>Deliver quality work, build experience and embrace new opportunities.</p></div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="tag">My strengths</div><h2>Skills</h2>
+ <div class="grid">
+  <div class="card"><h3>Data Entry</h3><p>Accurate data input and organization.</p></div>
+  <div class="card"><h3>Microsoft Excel</h3><p>Spreadsheet organization and formatting.</p></div>
+  <div class="card"><h3>Time Management</h3><p>Planning tasks and meeting deadlines.</p></div>
+  <div class="card"><h3>PDF to Word</h3><p>Document conversion and formatting.</p></div>
+  <div class="card"><h3>Communication</h3><p>Clear, respectful communication.</p></div>
+  <div class="card"><h3>Problem Solving</h3><p>A practical approach to challenges.</p></div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="tag">What I can do</div><h2>Services</h2>
+ <div class="grid">
+  <div class="card"><h3>Data Entry</h3><p>Entering and organizing information carefully.</p></div>
+  <div class="card"><h3>Excel Support</h3><p>Formatting and arranging spreadsheet data.</p></div>
+  <div class="card"><h3>PDF to Word</h3><p>Converting and formatting documents.</p></div>
+  <div class="card"><h3>Typing</h3><p>Preparing clean, readable documents.</p></div>
+ </div>
+</section>
+
+<section id="portfolio">
+ <div class="tag">My work</div><h2>Portfolio Projects</h2>
+ <p>Examples of the work I can offer. Add your real project samples here as you complete them.</p>
+ <div class="grid">
+  <div class="card"><h3>Spreadsheet Organization</h3><p>Structured, easy-to-read data.</p></div>
+  <div class="card"><h3>Document Conversion</h3><p>PDF to Word formatting.</p></div>
+  <div class="card"><h3>Typing Projects</h3><p>Accurate document preparation.</p></div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="tag">Let's connect</div><h2>Contact Me</h2>
+ <p>Have an opportunity, project or question? Send me a message.</p>
+ <form id="contactForm">
+  <label for="name">Your name</label><input id="name" required placeholder="Enter your name">
+  <label for="email">Your email</label><input id="email" type="email" required placeholder="you@example.com">
+  <label for="message">Your message</label><textarea id="message" required placeholder="How can I help you?"></textarea>
+  <button class="btn" type="submit">Prepare Email ↗</button>
+ </form>
+ <p id="status">To activate email contact, add your email address in the code below.</p>
+ <a class="btn alt" href="https://wa.me/" target="_blank" rel="noopener">Chat on WhatsApp</a>
+</section>
+<footer>© <span id="year"></span> Gabriel Edwin | Dream · Plan · Achieve</footer>
+<script>
+const MY_EMAIL=""; // Add your email address between the quotes
+document.getElementById("year").textContent=new Date().getFullYear();
+document.getElementById("contactForm").addEventListener("submit",function(e){
+ e.preventDefault();
+ if(!MY_EMAIL){document.getElementById("status").textContent="The website owner needs to add an email address to activate this form.";return}
+ const subject=encodeURIComponent("Portfolio enquiry from "+document.getElementById("name").value);
+ const body=encodeURIComponent("From: "+document.getElementById("name").value+"\nReply to: "+document.getElementById("email").value+"\n\n"+document.getElementById("message").value);
+ location.href="mailto:"+MY_EMAIL+"?subject="+subject+"&body="+body;
+});
+</script>
+</body>
+</html>
