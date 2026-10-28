@@ -1,3 +1,4 @@
+
 Record ID,Customer Name,County,Service,Date Received,Status
 DE001,Amina Otieno,Kisumu,Data Entry,2026-09-02,Completed
 DE002,Brian Mwangi,Nairobi,Document Formatting,2026-09-04,In Progress
@@ -9,3 +10,13 @@ DE007,George Ouma,Homa Bay,Data Entry,2026-09-11,Completed
 DE008,Hellen Chebet,Uasin Gishu,Excel Reporting,2026-09-13,Pending Review
 DE009,Ian Mutua,Machakos,Document Formatting,2026-09-15,Completed
 DE010,Joyce Atieno,Kisii,Data Entry,2026-09-17,In Progress
+DE011,Kevin Omondi,Siaya,Excel Reporting,2026-09-18,Completed
+DE012,Lydia Njeri,Nyeri,Data Entry,2026-09-19,Pending Review
+DE013,Martin Odhiambo,Kisumu,Document Formatting,2026-09-20,Completed
+DE014,Naomi Jepkosgei,Nakuru,Excel Reporting,2026-09-21,In Progress
+DE015,Oscar Onyango,Kakamega,Data Entry,2026-09-22,Completed
+DE016,Patricia Wairimu,Kiambu,Document Formatting,2026-09-23,Pending Review
+DE017,Quincy Barasa,Bungoma,Excel Reporting,2026-09-24,Completed
+DE018,Ruth Adhiambo,Mombasa,Data Entry,2026-09-25,In Progress
+DE019,Samuel Kipchumba,Uasin Gishu,Document Formatting,2026-09-26,Completed
+DE020,Theresa Akoth,Siaya,Excel Reporting,2026-09-27,Pending Review
